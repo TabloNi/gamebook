@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.nam.gamebook.map">
+
+    <LinearLayout
+        android:id="@+id/llMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:background="#668DB7"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btnRED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnClick"
+            android:background="#68B6F3"
+            android:padding="5dp"
+            android:text="@string/red" />
+
+        <Button
+            android:id="@+id/btnBLUE"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#68B6F3"
+            android:onClick="btnClick"
+            android:text="@string/blue" />
+
+        <Button
+            android:id="@+id/btnGREEN"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#68B6F3"
+            android:onClick="btnClick"
+            android:text="@string/green" />
+
+        <Button
+            android:id="@+id/btnWHITE"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:background="#68B6F3"
+            android:layout_weight="1"
+            android:onClick="btnClick"
+            android:text="@string/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ff000000"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</LinearLayout>

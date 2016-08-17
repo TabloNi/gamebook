@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nam.gamebook.Loginon">
+   <ImageView
+       android:scaleType="fitStart"
+       android:layout_width="match_parent"
+       android:src="@drawable/inven"
+       android:adjustViewBounds="true"
+       android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:weightSum="2"
+        android:layout_height="wrap_content"
+        android:background="#68B6F3"
+        android:orientation="vertical">
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:weightSum="2"
+         android:background="#68B6F3"
+         android:orientation="horizontal"
+         android:layout_weight="1">
+         <Button
+             android:layout_weight="1"
+             android:layout_marginRight="1dp"
+             android:layout_width="wrap_content"
+             android:layout_marginBottom="1dp"
+             android:background="@drawable/item"
+             android:id="@+id/item"
+             android:layout_height="wrap_content" />
+
+         <Button
+             android:layout_weight="1"
+             android:layout_width="wrap_content"
+             android:id="@+id/diary"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:background="@drawable/diary"
+             android:layout_gravity="right"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:background="#68B6F3"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/memo"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="1dp"
+                android:id="@+id/memo"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_weight="1"
+                android:background="@drawable/map"
+                android:layout_width="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="1dp"
+                android:id="@+id/map"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:background="#68B6F3"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:text="로그아웃" />
+    </LinearLayout>
+
+
+    </LinearLayout>

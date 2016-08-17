@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#68B6F3"
+    tools:context="com.example.nam.gamebook.Login">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="7dp"
+        android:src="@drawable/gamebook"
+        android:layout_gravity="center_horizontal"
+        android:padding="21dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login">
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:layout_marginLeft="17dp"
+        android:id="@+id/etEmail"
+        android:textColorHint="#D6D7D7"
+        android:background="@null"
+        android:textSize="20sp"
+        android:hint="아이디"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="65dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호"
+            android:textColorHint="#D6D7D7"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="12dp"
+            android:textSize="20sp"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:id="@+id/etPass"/></LinearLayout>
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnLogin"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_button"
+        android:layout_marginTop="20dp"
+        android:onClick="login"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnReg"
+        android:background="@drawable/register_main"
+        android:layout_marginTop="20dp"
+        android:onClick="register"/>
+
+
+</LinearLayout>

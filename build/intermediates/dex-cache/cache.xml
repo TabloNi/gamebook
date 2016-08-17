@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_43d00b37438e74d5500ccc051101707ce2b71c15/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_65ce4d5f8c471c477ddcb7d5b3b04a493222cde5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c4e487bd92c4db8ae53c8fda07c2a3b5011b7864">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6bb0d96ce64503dbf9ef5a3b318ab8e589fcb635/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_ef95a7d68f973b04814a5cfcbe56037955bc4515/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_d23dc08b065873649ed4e2df179da976f447e96e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_01cbad01b9efd73887db1ed277f99bc8bf38e58e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7adae38462aa9c9fd98730a20431b97293a1af0b">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cfeea10bfa5b0c88fb0dbd252c0a9274b347e799/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_a8b1655aa692570e3763ad692041df9ce05b7ae5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Desktop/gamebook/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_617d5fc234b1d78e00d0cd4ad5dd05a33be6772a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/nam/Desktop/gamebook/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_9b94e4a66456e388484ebda62c1336017dd0241e/classes.dex" />
+    </item>
+
+</items>
